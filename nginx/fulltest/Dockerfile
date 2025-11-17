@@ -3,11 +3,11 @@
 # First: global build arguments:
 
 # liboqs build type variant; maximum portability of image:
-ARG LIBOQS_TAG=0.14.0
+ARG LIBOQS_TAG=0.15.0
 
 ARG OPENSSL_TAG=openssl-3.4.2
 
-ARG OQSPROVIDER_TAG=0.9.0
+ARG OQSPROVIDER_TAG=0.11.0-rc1
 
 ARG LIBOQS_BUILD_DEFINES="-DOQS_DIST_BUILD=ON"
 
